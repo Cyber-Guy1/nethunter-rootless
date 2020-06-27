@@ -1,0 +1,23 @@
+[1] Download Termux From Google Play
+[2] Download Hackers Keyboard From Google Play
+[3] Download Nethunter Store From The Official Site
+[4] Download Nethunter Kex Manager From Nethunetr Store
+[5] Open The Termux App And Type The Commands Below :-
+
+- pkg update
+
+- pkg install git
+
+- git clone https://github.com/Cyber-Guy1/nethunter-rootless.git
+
+- cd nethunter-rootless
+
+- cp /data/data/com.termux/files/home/nethunter-rootless/install-nethunter-termux /data/data/com.termux/files/home/
+
+- cd ..
+
+- rm -rf nethunter-rootless
+
+- chmod +x install-nethunter-termux
+
+- ./install-nethunter-termux
